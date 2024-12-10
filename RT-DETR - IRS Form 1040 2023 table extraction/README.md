@@ -30,4 +30,4 @@ This article provides a working example of using multiple AI models to perform O
 ```
 
 ## Model classes for form 1040
-The finetuned RT-DETR model has 6 classes that are named with page numbers to improve the detection
+The finetuned RT-DETR model has 6 classes that are named with page numbers to improve the detection![fake_1040_pg1](https://github.com/user-attachments/assets/847a6fa1-099c-47a3-af17-eda61dbd01f6)
