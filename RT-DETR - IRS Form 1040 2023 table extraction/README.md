@@ -67,7 +67,7 @@ image_path = 'path to source image'
 img = cv2.imread(image_path)
 
 # perform inference
-results = model.predict(img, imgsz=1024) #imgsz is set to 1024 as the model is fineuned with this size
+results = model.predict(img, imgsz=1024) #imgsz is set to 1024 as the model is finetuned with this size
 
 # use supervision library for parsing results and generating redline boxes
 detections = sv.Detections.from_ultralytics(results[0])
